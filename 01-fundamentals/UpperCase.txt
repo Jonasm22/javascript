@@ -1,0 +1,10 @@
+//transforming total lowernames into the first letter into the capital letter --> jonathan --> Jonathan
+
+var name = prompt("What is your name: ")
+var outputName = name.length;
+var firstCapitalLetter = name.slice(0,1).toUpperCase();
+var restOftheName = name.slice(1,outputName).toLowerCase()
+
+alert("Hello " + firstCapitalLetter + restOftheName)
+
+
